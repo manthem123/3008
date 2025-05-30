@@ -1,4 +1,4 @@
--- ✅ Discord Webhook Logging
+
 pcall(function()
     local HttpService = game:GetService("HttpService")
     local player = game.Players.LocalPlayer
@@ -7,7 +7,7 @@ pcall(function()
         content = "**Script Executed**\nUserID: `" .. player.UserId .. "`\nUsername: `" .. player.Name .. "`"
     }
 
-    local url = "https://discord.com/api/webhooks/your_webhook_url_here"
+    local url = "https://discord.com/api/webhooks/1377840532239159407/mqgAugwP7-sJ5SoJaU_-N2kKYAkPlJCM0RWLZKJqcfLYLkfFnr6puvuvoqg-FBON-txA"
     local headers = {
         ["Content-Type"] = "application/json"
     }
@@ -30,8 +30,7 @@ pcall(function()
     end
 end)
 
--- 🧠 Your actual script starts here:
--- load GUIs, features, toggles, etc.
+
 
 
 
